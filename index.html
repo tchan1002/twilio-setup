@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Toby</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+        body { font-family: 'Outfit', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen flex items-center justify-center p-4 text-slate-700">
+    <main class="bg-white max-w-md w-full rounded-3xl shadow-xl overflow-hidden p-8 text-center space-y-6">
+        <!-- Image -->
+        <div class="relative w-32 h-32 mx-auto rounded-full overflow-hidden bg-slate-100 ring-4 ring-slate-50">
+            <img src="/toby.jpg" alt="Toby Chan" class="w-full h-full object-cover">
+        </div>
+
+        <!-- Header -->
+        <div class="space-y-2">
+            <h1 class="text-2xl font-medium text-slate-900">Toby Chan</h1>
+            <p class="text-sm text-slate-500 uppercase tracking-wider font-medium">Builder & Writer</p>
+        </div>
+
+        <!-- Blurb -->
+        <p class="text-slate-600 leading-relaxed">
+            Toby Chan is a builder, writer, and creative technologist studying at the University of Chicago. He spends his time making small, whimsical tools, hosting good meals, and creating serendipity between the people around him. His life updates mix projects he’s building, ideas he’s exploring, and small moments he wants to share with friends.
+        </p>
+
+        <!-- Divider -->
+        <div class="h-px bg-slate-100 w-1/2 mx-auto"></div>
+
+        <!-- SMS Section -->
+        <div class="bg-slate-50 rounded-2xl p-6 space-y-4">
+            <h2 class="text-lg font-medium text-slate-900">Keep in touch</h2>
+            <p class="text-sm text-slate-600">
+                Receive occasional life updates from Toby sent to friends who opt in.
+            </p>
+            
+            <!-- Opt-in -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+                <p class="font-medium text-slate-800">Text <span class="text-indigo-500 font-bold">JOIN</span> to this number to subscribe.</p>
+            </div>
+
+            <!-- Compliance -->
+            <div class="text-xs text-slate-400 space-y-1">
+                <p>Message & data rates may apply.</p>
+                <p>Message frequency varies.</p>
+                <p>Reply STOP to unsubscribe, HELP for help.</p>
+                <p class="pt-2">We do not share or sell your data.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
